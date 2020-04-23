@@ -8,7 +8,7 @@ class Token:
 
 
 @dataclass()
-class stringVar(Token):
+class StringVar(Token):
     """
     Represents any string content in an .ink file.
     :param string: String representation of the content.
